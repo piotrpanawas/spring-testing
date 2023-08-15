@@ -1,13 +1,13 @@
-package eu.ncdc.unittestsdemo;
+package eu.ncdc.springtesting;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class UnitTestsDemoApplication {
+public class SpringTestingApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(UnitTestsDemoApplication.class, args);
+        SpringApplication.run(SpringTestingApplication.class, args);
     }
 
 }
